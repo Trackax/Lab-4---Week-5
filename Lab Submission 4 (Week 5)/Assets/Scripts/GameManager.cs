@@ -19,7 +19,6 @@ public class GameManager : MonoBehaviour
         InvokeRepeating("SpawnMeteor", 1f, 2f);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (gameOver)
